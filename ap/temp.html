@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+
+
+<!-- Dependencies -->
+<script src="//ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="thirdparty/js.cookie.js"></script>
+
+<!-- CSS -->
+<link rel="stylesheet" href="build/ableplayer.min.css" type="text/css"/>
+
+<!-- JavaScript -->
+<script src="build/ableplayer.min.js"></script>
+
+</head>
+
+<body>
+
+
+<audio id="audio1" data-able-player preload="metadata" width="100">
+  <source type="audio/mpeg" src="path_to_audio_file.mp3"/>
+</audio>
+
+<ul class="able-playlist" data-player="audio1" data-embedded>
+  <li data-poster="something.jpg">
+  	<span class="able-source"
+  		data-type="audio/mpeg"
+			data-src="../media/paulallen.mp3"></span>
+  	<span class="able-source"
+  		data-type="audio/ogg"
+			data-src="../media/paulallen.ogg"></span>
+  	<button>The Paul Allen Song</button>
+  </li>
+  <li>
+  	<span class="able-source"
+  		data-type="audio/mpeg"
+			data-src="../media/php70alpha.mp3"></span>
+  	<span class="able-source"
+  		data-type="audio/ogg"
+			data-src="../media/php70alpha.ogg"></span>
+  	<button>PHP 7.0 Alpha</button>
+  </li>
+  <li>
+  	<span class="able-source"
+  		data-type="audio/mpeg"
+			data-src="../media/frenchsong.mp3"></span>
+  	<span class="able-source"
+  		data-type="audio/ogg"
+			data-src="../media/frenchsong.ogg"></span>
+  	<button lang="fr">Une Chanson Française</button>
+  </li>
+  <li>
+  	<span class="able-source"
+  		data-type="audio/mpeg"
+			data-src="../media/smallf.mp3"></span>
+  	<span class="able-source"
+  		data-type="audio/ogg"
+			data-src="../media/smallf.ogg"></span>
+  	<button>Man With Small F (The Inaccessible PDF Song)</button>
+  </li>
+  <li>
+  	<span class="able-source"
+  		data-type="audio/mpeg"
+			data-src="../media/everyday.mp3"></span>
+  	<span class="able-source"
+  		data-type="audio/ogg"
+			data-src="../media/everyday.ogg"></span>
+  	<button>Every Day</button>
+  </li>
+</ul>
+
+</body>
+</html>
