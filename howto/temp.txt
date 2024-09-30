@@ -1,3 +1,20 @@
+Directory Structure
+/your-project-directory
+    ├── index.html
+    ├── albums.txt
+    ├── tracks.txt
+
+albums.txt
+Album 1
+Album 2
+Album 3
+
+tracks.txt
+Album 1:Track 1,Track 2,Track 3
+Album 2:Track 1,Track 2
+Album 3:Track 1,Track 2,Track 3,Track 4
+
+index.html
 <!DOCTYPE html>
 <html lang="en">
 <head>
