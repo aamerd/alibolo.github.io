@@ -1,3 +1,0 @@
-Album 1:Track 1,Track 2,Track 3
-Album 2:Track 1,Track 2
-Album 3:Track 1,Track 2,Track 3,Track 4
